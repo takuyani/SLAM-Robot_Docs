@@ -1,8 +1,7 @@
 [Electrical_Circuit_Diagram]:https://github.com/takuyani/SLAM-Robot_Docs/blob/master/Hardware/Electrical_Circuit_Diagram/Electrical_Circuit_Diagram.pdf
 
 # **～SLAMロボット車体制作マニュアル～**  (Rev.1.0)
-<br>
-![vehicle](https://farm9.staticflickr.com/8136/29983598960_4a01cd1490_b.jpg)
+![vehicle1](https://farm9.staticflickr.com/8136/29983598960_4a01cd1490_b.jpg)
 
 #### ◆参考資料
 作成する際に、以下の資料を参考にしてください。
