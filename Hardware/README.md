@@ -70,6 +70,7 @@ $ dtc -O dtb -o BB-SPI0-01-00A0.dtbo -b 0 -@ BB-SPI0-01-00A0.dts
 $ dtc -O dtb -o BB-SPI0-02-00A0.dtbo -b 0 -@ BB-SPI0-02-00A0.dts
 ```
 コンパイルが成功するとDevice Tree Blob Object(DTBO)ファイルがそれぞれ生成される。
+
 <br>
 
 3. 生成されたDTBOファイルを/lib/firmware/配下にコピーする。  
