@@ -8,7 +8,7 @@
     - 3.2.&nbsp;[BeagleBone Black Environment Configuration](#32-beaglebone-black-environment-configuration)  
         - 3.2.1.&nbsp;[Install Ubuntu](#321-install-ubuntu)
         - 3.2.2.&nbsp;[Install ROS](#322-install-ros)
-        - 3.2.3.&nbsp;[Enable SPI0](#323-enable-spi0)
+        - 3.2.3.&nbsp;[Enable Peripheral Device](#323-enable-peripheral-device)
 
 # 1. Overview
 SLAM-Robotのハードウェア概要について説明する。
@@ -55,6 +55,7 @@ $ sudo apt-get install ros-kinetic-ros-base
 ### 3.2.3 Enable Peripheral Device
 BBBでは以下のペリフェラル・デバイスを使用する。
 - SPI0
+<br>
 
 上記デバイスを有効にするための手順を以下に示す。
 
