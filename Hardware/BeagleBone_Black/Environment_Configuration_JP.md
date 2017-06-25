@@ -245,13 +245,13 @@ BBBでは以下のペリフェラル・デバイスを使用する。
 
 上記デバイスを有効にするための手順を以下に示す。
 
-__1. Device Tree Source(DTS)ファイルのダウンロード__
+__1. Device Tree Source(DTS)ファイルのダウンロード__  
 ディレクトリ["Hardware/BeagleBone_Black/dts"](https://github.com/takuyani/SLAM-Robot_Docs/tree/master/Hardware/BeagleBone_Black/dts)から以下のDevice Tree Source(DTS)ファイルをダウンロードし、任意の場所に保存する。  
 - BB-SPI0-01-00A0.dts
 - BB-SPI0-02-00A0.dts
 <br>
 
-__2. DTSファイルのコンパイル__
+__2. DTSファイルのコンパイル__  
 ダウンロードしたDTSファイルをコンパイルする。  
 ```bash
 $ dtc -O dtb -o BB-SPI0-01-00A0.dtbo -b 0 -@ BB-SPI0-01-00A0.dts
